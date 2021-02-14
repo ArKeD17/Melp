@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Melp/static/css/main.db52bf92.chunk.css",
-    "main.js": "/Melp/static/js/main.b2da0c23.chunk.js",
-    "main.js.map": "/Melp/static/js/main.b2da0c23.chunk.js.map",
+    "main.css": "/Melp/static/css/main.f124d1cf.chunk.css",
+    "main.js": "/Melp/static/js/main.c72f0baf.chunk.js",
+    "main.js.map": "/Melp/static/js/main.c72f0baf.chunk.js.map",
     "runtime-main.js": "/Melp/static/js/runtime-main.a6b57090.js",
     "runtime-main.js.map": "/Melp/static/js/runtime-main.a6b57090.js.map",
-    "static/js/2.9c05c443.chunk.js": "/Melp/static/js/2.9c05c443.chunk.js",
-    "static/js/2.9c05c443.chunk.js.map": "/Melp/static/js/2.9c05c443.chunk.js.map",
+    "static/js/2.2e58c894.chunk.js": "/Melp/static/js/2.2e58c894.chunk.js",
+    "static/js/2.2e58c894.chunk.js.map": "/Melp/static/js/2.2e58c894.chunk.js.map",
     "index.html": "/Melp/index.html",
-    "static/css/main.db52bf92.chunk.css.map": "/Melp/static/css/main.db52bf92.chunk.css.map",
-    "static/js/2.9c05c443.chunk.js.LICENSE.txt": "/Melp/static/js/2.9c05c443.chunk.js.LICENSE.txt",
+    "static/css/main.f124d1cf.chunk.css.map": "/Melp/static/css/main.f124d1cf.chunk.css.map",
+    "static/js/2.2e58c894.chunk.js.LICENSE.txt": "/Melp/static/js/2.2e58c894.chunk.js.LICENSE.txt",
     "static/media/index.module.scss": "/Melp/static/media/Banner.537983da.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a6b57090.js",
-    "static/js/2.9c05c443.chunk.js",
-    "static/css/main.db52bf92.chunk.css",
-    "static/js/main.b2da0c23.chunk.js"
+    "static/js/2.2e58c894.chunk.js",
+    "static/css/main.f124d1cf.chunk.css",
+    "static/js/main.c72f0baf.chunk.js"
   ]
 }
