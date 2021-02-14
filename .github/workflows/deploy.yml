@@ -20,6 +20,6 @@ jobs:
           git config --global user.email "eduard17nov@gmail.com"
           git config --global user.name "ArKeD17"
       - name: deploy the app
-        run: npm run deploy
+        run: yarn run deploy
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
