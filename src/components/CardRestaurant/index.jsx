@@ -52,7 +52,7 @@ function CardRestaurant(props) {
           className={styles.ml}
           variant="text"
           color="primary"
-          onClick={(e) => props.push(`/${props.id}`)}
+          onClick={(e) => props.push(`/Melp/${props.id}`)}
         >
           ver
         </Button>

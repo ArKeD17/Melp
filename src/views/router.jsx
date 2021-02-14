@@ -12,9 +12,9 @@ const MyRouter = () => {
     <>
       <Router>
         <Switch>
-          <Route path="/" exact component={RestaurantsView} />
-          <Route path="/:id" exact component={RestaurantView} />
-          <Route render={(props) => <Redirect to="/" />} />
+          <Route path="/Melp" exact component={RestaurantsView} />
+          <Route path="/Melp/:id" exact component={RestaurantView} />
+          <Route render={(props) => <Redirect to="/Melp" />} />
         </Switch>
       </Router>
     </>

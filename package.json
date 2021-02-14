@@ -9,7 +9,7 @@
     "@material-ui/styles": "^4.11.2",
     "dotenv": "^8.2.0",
     "gh-pages": "^3.1.0",
-    "gh-pages-with-token": "^1.0.0",
+    "node-sass": "4.14.1",
     "react": "^17.0.1",
     "react-content-loader": "^6.0.1",
     "react-dom": "^17.0.1",
@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages-with-token -d dist"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,7 +46,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "node-sass": "^4.12.0"
-  }
+  "devDependencies": {}
 }

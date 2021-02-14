@@ -3,7 +3,6 @@ import React from "react";
 import AppBar from "components/AppBar";
 import CardRestaurant from "components/CardRestaurant";
 import RestaurantsPlaceholder from "components/Loader";
-import Button from "@material-ui/core/Button";
 import LineDegraded from "components/LineDegraded";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
@@ -38,9 +37,6 @@ const Page = ({ restaurants, progress, changeFilter, history }) => {
                 <div className={styles.icon_animation}>
                   <ArrowDropDownIcon style={{ fontSize: 40 }} />
                 </div>
-                <Button variant="outlined" color="inherit">
-                  VER
-                </Button>
               </div>
             </div>
           </div>
