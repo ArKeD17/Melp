@@ -16,6 +16,8 @@ jobs:
         with:
           node-version: ${{matrix.node-version}}
       - name: install packages
+        run: yarn
+      - name: registry github user
         run: |
           git config --global user.email "eduard17nov@gmail.com"
           git config --global user.name "ArKeD17"
