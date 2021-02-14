@@ -8,7 +8,6 @@ import { withRouter } from "react-router-dom";
 import style from "./index.module.scss";
 import Button from "@material-ui/core/Button";
 import RestaurantMenu from "@material-ui/icons/RestaurantMenu";
-import { Link } from "react-router-dom";
 
 const drawerWidth = 254;
 
@@ -45,9 +44,9 @@ function MyAppBar(props) {
             </div>
           </div>
           <div className={style.container_btn}>
-            <Link to="/" className={style.link}>
-              <Button color="inherit">Regresar</Button>
-            </Link>
+            <Button color="inherit" href="https://arked17.github.io/Melp">
+              Regresar
+            </Button>
           </div>
         </Toolbar>
       </AppBar>
