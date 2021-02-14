@@ -110,13 +110,16 @@ const Page = ({ restaurant }) => {
                   </div>
                   <div className={styles.container_btn}>
                     <FacebookShareButton
-                      url={"www.google.com"}
-                      quote={"Check out this website: www.google.com"}
+                      url={"https://www.nicosmexico.mx/"}
+                      quote={
+                        "La comida habla de nuestra cultura, herencia, raíces e influencias."
+                      }
                     >
                       <Button
                         className={styles.btn_facebook}
                         variant="contained"
                         startIcon={<Reply />}
+                        component="div"
                       >
                         compartir
                       </Button>

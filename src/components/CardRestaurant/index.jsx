@@ -56,7 +56,7 @@ function CardRestaurant(props) {
         >
           ver
         </Button>
-        <div>
+        <div className={styles.stars}>
           <Typography variant="body2" color="textPrimary">
             {"Calificación"}
           </Typography>
