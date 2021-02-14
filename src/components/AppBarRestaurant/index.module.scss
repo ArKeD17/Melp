@@ -1,0 +1,49 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 64px;
+  margin: 5px;
+}
+
+.banner {
+  width: 250px;
+}
+
+.container_btn {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .logo {
+    width: 40px;
+  }
+}
+
+.prueba {
+  animation: myprueba 0.8s 1;
+  animation-timing-function: linear;
+  position: relative;
+  overflow: hidden;
+  margin-left: 3%;
+}
+
+@keyframes myprueba {
+  from {
+    color: transparent;
+  }
+  to {
+    color: white;
+  }
+}

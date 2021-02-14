@@ -1,0 +1,17 @@
+version: "3.5"
+services:
+  web:
+    image: node:10-alpine
+    working_dir: /var/app
+    # env_file: ./.env.development
+    volumes:
+      - ./:/var/app
+      - cache:/usr/local/share/.cache/yarn/v4
+    environment:
+      - PORT=8080
+    ports:
+      - 8080:8080
+    command: sh -c "yarn && yarn start"
+
+volumes:
+  cache:

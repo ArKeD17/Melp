@@ -1,0 +1,57 @@
+.container_line {
+  display: flex;
+  width: 80%;
+  margin: 1%;
+  margin-top: 2%;
+  animation: myline 3s 1 alternate;
+  animation-timing-function: ease-in;
+  position: relative;
+}
+
+.line_left {
+  background: linear-gradient(-90deg, white, transparent);
+  width: 100%;
+  min-height: 1.7px;
+}
+
+.line_right {
+  background: linear-gradient(90deg, white, transparent);
+  width: 100%;
+  min-height: 1.7px;
+}
+
+.container_line_black {
+  display: flex;
+  width: 100%;
+  margin: 1%;
+}
+
+.line_left_black {
+  background: linear-gradient(-90deg, black, transparent);
+  width: 100%;
+  min-height: 2px;
+}
+
+.line_right_black {
+  background: linear-gradient(90deg, black, transparent);
+  width: 100%;
+  min-height: 2px;
+}
+
+@media (max-width: 500px) {
+  .container_line {
+    display: flex;
+    width: 80%;
+    margin: 1%;
+    margin: 5%;
+  }
+}
+
+@keyframes myline {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}

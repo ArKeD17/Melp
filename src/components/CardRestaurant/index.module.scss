@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.restaurant {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+  margin: 8px;
+  width: 350px;
+  box-sizing: border-box;
+}
+
+.mr_left_16 {
+  margin-left: 16px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+@media (max-width: 350px) {
+  .mr_left_16 {
+    margin-left: 8px;
+  }
+}
+
+@media (max-width: 500px) {
+  .restaurant {
+    padding: 16px;
+    margin: 8px;
+    width: 320px;
+    box-sizing: border-box;
+  }
+}
