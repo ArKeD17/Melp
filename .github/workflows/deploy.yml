@@ -17,8 +17,8 @@ jobs:
           node-version: ${{matrix.node-version}}
       - name: install packages
         run: /
-          git config --global user.email <email>
-          git config --global user.name <name>
+          git config --global user.email eduard17nov@gmail.com
+          git config --global user.name ArKeD17
       - name: deploy the app
         run: npm run deploy
         env:
